@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!--Link to css file-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <!--This is title-->
+    <title>High Score</title>  
+  </head>
+  <body>
+    <header>
+      <!--Link to highscore page-->
+      <a href="highscore.html" id="highscoreBtn" >View Highsores</a>
+      <div id="timer"></div>
+      
+    </header>
+
+   <!--main quiz section-->
+  <section id = "container">
+     
+   <div id = "quizHome" >         
+     <h1>High scores</h1>
+     <ul id="highScore"></ul>
+      <!--button-->  
+      <button id="goBack">Go Back</button>
+      <button id="clear" value="reset">Clear Highscores</button>
+      
+      <script src="assets/js/viewHighscore.js"></script>
+    </div>
+
+
+  </section>
+
+
+  <script src="assets/js/game.js"></script>
+  <script src="assets/js/viewHighscore.js"></script>
+</body>
+
+</html>

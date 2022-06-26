@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!--Link to css file-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    
+    <!--This is title-->
+    <title>Code Quiz</title>  
+  </head>
+
+  <body>
+    <header>
+      <!--Link to highscore page-->
+      <a href="highscore.html" id="highscoreBtn" >View Highsores</a>
+      <div id="timer"></div>
+      
+    </header>
+
+   <!--main quiz section-->
+  <section id = "container">
+     
+   <div id = "quizHome" >         
+     <h1>Coding Quiz Challenge</h1>
+     <P>This test will asscess your knowlege of basic JavaScrpit with 5 mulitple choice question. Click the "Start" button to begin the quiz.   </P>
+    
+     <!--Quiz section-->
+      <ul id="choicesUl" class="idBtn"></ul>
+      <!--qustion start button-->
+  
+      <button id="startTimer" class="btn">Start</button>
+    </div>
+
+
+  </section>
+
+
+
+  <script src="assets/js/game.js"></script>
+  <script src="assets/js/viewHighscore.js"></script>
+</body>
+
+</html>
